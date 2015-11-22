@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/miyucy/kinkou.git
-  revision: e5b375b731e6d9e4bc112e071d31d7704a26930f
+  revision: 943f000f1de60ab0cb741b6bc4ba3a3ec383ffcf
   specs:
     kinkou (0.1.0)
       httpclient
