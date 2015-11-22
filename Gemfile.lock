@@ -1,5 +1,6 @@
-PATH
-  remote: ../kinkou
+GIT
+  remote: git://github.com/miyucy/kinkou.git
+  revision: e5b375b731e6d9e4bc112e071d31d7704a26930f
   specs:
     kinkou (0.1.0)
       httpclient
@@ -62,7 +63,7 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
-    httpclient (2.5.3.3)
+    httpclient (2.7.0.1)
     i18n (0.7.0)
     jbuilder (2.3.2)
       activesupport (>= 3.0.0, < 5)

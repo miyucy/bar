@@ -23,7 +23,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
 
-  gem 'kinkou', path: '../kinkou'
+  gem 'kinkou', github: 'miyucy/kinkou'
 end
 
 group :test do
