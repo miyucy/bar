@@ -1,0 +1,1 @@
+Kinkou::Tracker.bind
