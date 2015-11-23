@@ -1,6 +1,11 @@
 machine:
   ruby:
     version: 2.2.3
+dependencies:
+  post:
+    - bin/test-runner:
+        environment:
+          DRY: 1
 test:
   override:
     - bin/test-runner:

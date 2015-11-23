@@ -1,3 +1,5 @@
 #!/bin/bash -x
 TEST_FILES=$(bundle exec kinkou -n bar -g 'spec/**/*_spec.rb')
-./bin/rspec $TEST_FILES
+if [ -z $DRY ]; then
+  ./bin/rspec $TEST_FILES
+fi
