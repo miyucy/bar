@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/miyucy/kinkou.git
-  revision: 943f000f1de60ab0cb741b6bc4ba3a3ec383ffcf
+  remote: git://github.com/miyucy/kintou.git
+  revision: 87c2040f022aec810239189ba4c878351313d477
   specs:
-    kinkou (0.1.0)
+    kintou (0.1.0)
       httpclient
       json
 
@@ -182,7 +182,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  kinkou!
+  kintou!
   mysql2
   pry-byebug
   pry-rails

@@ -1,5 +1,5 @@
 #!/bin/bash -x
-TEST_FILES=$(bundle exec kinkou -g 'spec/**/*_spec.rb')
+TEST_FILES=$(bundle exec kintou -g 'spec/**/*_spec.rb')
 if [ -z $DRY ]; then
   ./bin/rspec $TEST_FILES
 fi
