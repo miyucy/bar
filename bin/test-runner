@@ -1,5 +1,8 @@
 #!/bin/bash -x
-TEST_FILES=$(bundle exec kintou -g 'spec/**/*_spec.rb')
-if [ -z $DRY ]; then
+if [ -n "$DRY" -a $CIRCLE_NODE_INDEX = 0 ]; then
+  bundle exec kintou -g 'spec/**/*_spec.rb'
+fi
+if [ -z "$DRY" ]; then
+  TEST_FILES=$(bundle exec kintou -g 'spec/**/*_spec.rb')
   ./bin/rspec $TEST_FILES
 fi
